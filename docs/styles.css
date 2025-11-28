@@ -1,6 +1,8 @@
 /* TODO:
  * - font sizes
  * - when to use px vs. rem vs. percent?
+ * - prettify contact form
+ * - make form fields scale nicely on zoom and mobile
  */
 
 :root {
@@ -74,8 +76,32 @@ body {
     color: var(--accent-color);
 }
 
-#content {
+#home-content {
     text-align: center;
     padding-left: 20%;
     padding-right: 20%;
+}
+
+#form-content {
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+form label {
+    display: block;
+    font-family: mono;
+}
+
+form input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 10rem;
+}
+
+.required {
+    color: red;
 }
