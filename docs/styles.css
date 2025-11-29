@@ -1,7 +1,7 @@
 /* TODO:
  * - font sizes
  * - when to use px vs. rem vs. percent?
- * - prettify contact form
+ * - prettify contact form, make colors consistent
  * - make form fields scale nicely on zoom and mobile
  */
 
@@ -45,7 +45,7 @@ body {
 
 #navlinks {
     color: white;
-    font-family: mono;
+    font-family: monospace;
 
     display: flex;
     flex-wrap: wrap;
@@ -55,7 +55,7 @@ body {
 
 #site-heading {
     color: white;
-    font-family: mono;
+    font-family: monospace;
 }
 
 #site-heading a {
@@ -89,12 +89,33 @@ body {
 
 form label {
     display: block;
-    font-family: mono;
+    font-family: monospace;
 }
 
 form input, textarea {
+    font-family: monospace;
+    background-color: var(--navbar-background);
+    color: white;
     width: 100%;
     box-sizing: border-box;
+    border: 1px solid #b3b3b3;
+    border-radius: 0;
+}
+
+form button {
+    font-family: monospace;
+    background-color: var(--body-background);
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 0;
+    border: 1px solid white;
+}
+
+form button:hover {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+    cursor: pointer;
 }
 
 textarea {
