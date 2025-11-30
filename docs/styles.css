@@ -17,6 +17,11 @@ body {
     margin: 0;
 }
 
+h2 {
+    color: white;
+    font-family: monospace;
+}
+
 #navspace-left {
     flex: 1 1 0%;
 }
@@ -90,6 +95,7 @@ body {
 form label {
     display: block;
     font-family: monospace;
+    margin-bottom: 1rem;
 }
 
 form input, textarea {
@@ -100,6 +106,7 @@ form input, textarea {
     box-sizing: border-box;
     border: 1px solid #b3b3b3;
     border-radius: 0;
+    margin-top: 0.5rem;
 }
 
 form button {
