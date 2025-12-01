@@ -11,6 +11,10 @@
     --accent-color: #00a6bf;
 }
 
+html {
+    font-size: 16px;
+}
+
 body {
     background-color: var(--body-background);
     color: white;
@@ -51,6 +55,7 @@ h2 {
 #navlinks {
     color: white;
     font-family: monospace;
+    font-size: 1.25rem;
 
     display: flex;
     flex-wrap: wrap;
@@ -95,11 +100,13 @@ h2 {
 form label {
     display: block;
     font-family: monospace;
+    font-size: 1.25rem;
     margin-bottom: 1rem;
 }
 
 form input, textarea {
     font-family: monospace;
+    font-size: 1rem;
     background-color: var(--navbar-background);
     color: white;
     width: 100%;
@@ -111,6 +118,7 @@ form input, textarea {
 
 form button {
     font-family: monospace;
+    font-size: 1.25rem;
     background-color: var(--body-background);
     color: white;
     width: 100%;
