@@ -168,10 +168,11 @@ form button {
     padding: 1rem;
 }
 
-form button:hover {
+form button:hover, button:focus {
     color: var(--accent-color);
     border-color: var(--accent-color);
     cursor: pointer;
+    outline: none;
 }
 
 textarea {
