@@ -114,11 +114,12 @@ h2 {
     font-family: monospace;
     font-size: 1.5rem;
 
-    /* TODO how to make it always fill the remaining viewport space under the navbar? */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    /* TODO how to make it always fill the remaining viewport space under the navbar? */
     height: 60vh;
 }
 
