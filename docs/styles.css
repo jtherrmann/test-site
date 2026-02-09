@@ -152,8 +152,8 @@ form input, textarea {
 }
 
 form input:focus, textarea:focus {
-    border: none;
-    outline: 2px solid var(--accent-color);
+    border-color: var(--accent-color);
+    outline: 1px solid var(--accent-color);
 }
 
 form button {
