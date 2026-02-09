@@ -110,6 +110,26 @@ h2 {
     padding-right: 30%;
 }
 
+#page-not-found-content {
+    font-family: monospace;
+    font-size: 1.5rem;
+
+    /* TODO how to make it always fill the remaining viewport space under the navbar? */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+#page-not-found-content p {
+    margin: 1rem;
+}
+
+#page-not-found-content p:nth-of-type(2) {
+    font-size: 2rem;
+}
+
 form label {
     display: block;
     font-size: 1.25rem;
